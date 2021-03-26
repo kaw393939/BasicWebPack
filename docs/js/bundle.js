@@ -10,13 +10,13 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/js/bar.js":
-/*!***********************!*\
-  !*** ./src/js/bar.js ***!
-  \***********************/
+/***/ "./src/js/TestJs.js":
+/*!**************************!*\
+  !*** ./src/js/TestJs.js ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ bar)\n/* harmony export */ });\nfunction bar() {\r\n    alert('Test');\r\n}\n\n//# sourceURL=webpack://untitled13/./src/js/bar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ TestJS)\n/* harmony export */ });\nfunction TestJS() {\r\n    console.log(\"Loaded\");\r\n}\n\n//# sourceURL=webpack://untitled13/./src/js/TestJs.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _bar_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./bar.js */ \"./src/js/bar.js\");\n\r\n\r\n(0,_bar_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n//# sourceURL=webpack://untitled13/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _TestJs_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TestJs.js */ \"./src/js/TestJs.js\");\n\r\n\r\n(0,_TestJs_js__WEBPACK_IMPORTED_MODULE_0__.default)();\r\n\n\n//# sourceURL=webpack://untitled13/./src/js/index.js?");
 
 /***/ })
 
