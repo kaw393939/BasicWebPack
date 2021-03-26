@@ -1,7 +1,8 @@
 Prerequisites:
 Install Node:
+https://nodejs.org/en/download/
 
-Install Webpack Globally
+Install Webpack Globally by running this command on your terminal / command prompt
 npm install --global webpack
 
 To Use:
