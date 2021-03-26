@@ -1,3 +1,3 @@
-import bar from './bar.js';
+import TestJS from './TestJs.js';
 
-bar();
+TestJS();
