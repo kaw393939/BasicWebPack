@@ -2,10 +2,9 @@
 const express = require('express');
 const app = express();
 const open = require("open");
-
+var cors = require('cors')
+app.use(cors())
 app.use(express.static('docs'));
-open("http://localhost:9080");
-
 
 app.get('/api/v1/cities', function(req, res) {
     const mysql = require('mysql')
@@ -33,4 +32,6 @@ app.set('ip', process.env.NODEJS_IP || '127.0.0.1');
 
 app.listen(app.get('port'), function() {
     console.log('%s: Node server started on %s ...', Date(Date.now()), app.get('port'));
+    open("http://localhost:8000");
+
 });

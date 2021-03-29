@@ -12,16 +12,9 @@ module.exports = {
     entry: {
         index: './src/js/index.js',
     },
-    devServer: {
-        contentBase: path.join(__dirname, 'docs'),
-        open: true,
-        compress: true,
-        port: 8080,
-
-    },
     output: {
-        filename: 'js/bundle.js',
         path: path.resolve(__dirname, 'docs'),
+        filename: 'js/bundle.js',
         clean: true,
     },
     plugins: [
@@ -30,7 +23,7 @@ module.exports = {
                 { from: "src",
                   globOptions: {
                       ignore: [
-                          '**/js/index.js',
+                          '**/js/*',
                       ]
                 }
             }],
@@ -39,4 +32,11 @@ module.exports = {
             },
         }),
     ],
+    devServer: {
+        contentBase: path.join(__dirname, 'docs'),
+        open: true,
+        compress: true,
+        port: 8080,
+
+    },
 };
