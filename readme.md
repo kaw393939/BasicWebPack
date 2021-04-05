@@ -24,3 +24,7 @@ Turn on github pages and put a link to your site in the readme when you turn in 
 Working site here:
 
 http://www.webizly.com/BasicWebPack/
+
+Based on this tutorial:
+
+https://medium.com/@rahulguptalive/create-crud-apis-in-nodejs-express-and-mysql-abda4dfc2d6
