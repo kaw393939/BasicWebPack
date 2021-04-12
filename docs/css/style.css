@@ -5,21 +5,27 @@ body {
     font-size: 17px;
     line-height: 29px;
 }
+
 h1 {
     font-size: 200%;
 }
+
 h2 {
     font-size: 180%;
 }
+
 h3 {
     font-size: 160%;
 }
+
 h4 {
     font-size: 140%;
 }
+
 h5 {
     font-size: 120%;
 }
+
 h6 {
     font-size: 100%;
 }
@@ -29,27 +35,63 @@ h6 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .header ul {
     margin: 0px;
     padding: 0px;
 }
+
 .header li {
     display: inline;
 }
+
 .header, .footer {
     border: 1px solid black;
 }
+
 .content1 {
     float: left;
     width: 575px;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .content2 {
     float: left;
     width: 345px;
     padding: 10px;
 }
+
 .footer {
     clear: left;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /*
+    grid-column-gap:1em;
+    grid-row-gap:1em;
+    */
+}
+
+.main > div {
+    background: #eee;
+    padding: 1em;
+}
+
+.main > div:nth-child(odd) {
+    background: #ddd;
+}
+
+img {
+    /*    setting an image to take up the full size of a container
+    max-width: 100%;
+    height: auto;
+     */
+    /*  setting an image to take up the half size of a container and center it*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
