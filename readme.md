@@ -2,7 +2,8 @@
 
 Readings / Practice
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+1.  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+2.  https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
 
 # Install Instructions from previous lesson
 Prerequisites:
