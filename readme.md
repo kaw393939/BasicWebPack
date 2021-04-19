@@ -1,3 +1,8 @@
+This is based on this tutorial:
+
+Babel: https://www.robinwieruch.de/webpack-babel-setup-tutorial/
+What is Babel?: https://babeljs.io/
+
 Prerequisites:
 Install Node:
 https://nodejs.org/en/download/
