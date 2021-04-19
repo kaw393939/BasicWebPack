@@ -1,5 +1,6 @@
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+
+const router = express.Router();
 const cityController = require('../controllers/cities.controllers');
 
 // Retrieve all employees
@@ -17,4 +18,4 @@ router.put('/:id', cityController.update);
 // Delete a employee with id
 router.delete('/:id', cityController.delete);
 
-module.exports = router
+module.exports = router;

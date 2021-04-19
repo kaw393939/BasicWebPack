@@ -1,3 +1,3 @@
 export default function ConsoleLogIt(message) {
-    console.log(message);
+  console.log(message);
 }
