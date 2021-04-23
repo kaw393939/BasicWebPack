@@ -1,7 +1,6 @@
 This is based on this tutorial:
-
-Babel: https://www.robinwieruch.de/webpack-eslint/
-What is ESLint?: https://medium.com/the-node-js-collection/why-and-how-to-use-eslint-in-your-project-742d0bc61ed7
+JavaScript Slideshow
+https://www.freecodecamp.org/news/how-to-create-a-slideshow/
 
 Commands:
 webpack build <- runs eslint on front end and babel npm run eslint <-runs eslint on the backend in the server directory
