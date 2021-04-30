@@ -1,16 +1,22 @@
 This is based on this tutorial:
 
-Babel: https://www.robinwieruch.de/webpack-eslint/
-What is ESLint?: https://medium.com/the-node-js-collection/why-and-how-to-use-eslint-in-your-project-742d0bc61ed7
+Install these packages in order - use the npm install terminal command for each module:
+https://webpack.js.org/loaders/style-loader/
+https://webpack.js.org/loaders/css-loader/
+https://webpack.js.org/loaders/sass-loader/
 
-Commands:
-webpack build <- runs eslint on front end and babel npm run eslint <-runs eslint on the backend in the server directory
-you will get an error if there are any eslint violations but that won't stop your program from running.
+Then update your webpack.config.js rules to add what i have 
+
+Guide to SASS:
+https://sass-lang.com/guide
+
+Complete this tutorial:
+https://medium.com/litslink/sass-in-examples-5fb9b205c3a8
+
 
 Prerequisites:
 Install Node:
 https://nodejs.org/en/download/
-Complete the Babel Branch Tutorial
 
 Install Webpack Globally by running this command on your terminal / command prompt
 
